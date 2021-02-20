@@ -12,7 +12,7 @@ Install geckodrier and add to path C:\WebDriver\bin\ on windows
 # App Info
 
 ## Author
-Peter Ebueku
+Uyiosa Peter Ebueku
 
 ## Version 
 1.0.0
