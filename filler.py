@@ -30,7 +30,7 @@ def main():
     main
     '''
 
-    moodle_login(os.environ.get('USERNAME'), os.environ.get('PASSWORD')) # Enter your username and password for the moodle sites as a string
+    moodle_login('Enter moodle_username here', 'Enter moodle Password here') # Enter your username and password for the moodle sites as a string
 
     course_url = 'https://moodle.covenantuniversity.edu.ng/mod/feedback/complete.php?id=43258&courseid='
 

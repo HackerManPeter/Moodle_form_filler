@@ -9,6 +9,8 @@ Uses Selenium to Access Covenant University moodle website and automatically fil
 
 Install geckodrier and add to path C:\WebDriver\bin\ on windows
 
+Learn how to install geckodriver and add to path [here](https://www.selenium.dev/documentation/en/webdriver/driver_requirements/)
+
 # App Info
 
 ## Author
