@@ -1,6 +1,6 @@
 # A script that automatically fills course evaluation form on the Covenant University moodle platform
 # for each course using selenium 
-
+import os
 import re
 from selenium.webdriver import Firefox  
 from selenium.webdriver.support.ui import Select
@@ -30,7 +30,7 @@ def main():
     main
     '''
 
-    moodle_login(username, password) # Enter your username and password for the moodle sites as a string
+    moodle_login(os.environ.get('USERNAME'), os.environ.get('PASSWORD')) # Enter your username and password for the moodle sites as a string
 
     course_url = 'https://moodle.covenantuniversity.edu.ng/mod/feedback/complete.php?id=43258&courseid='
 
